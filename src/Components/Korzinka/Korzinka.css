@@ -1,0 +1,241 @@
+.korzinka__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.korzinka__list {
+  width: 70%;
+}
+
+.korzinka__item {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 18px 30px 18px 30px;
+}
+
+.korzinka__item_img {
+  object-fit: contain;
+}
+
+.korzinka__item_img_box {
+  width: 239px;
+  height: 239px;
+  padding: 0;
+  padding-left: 0 !important;
+}
+
+.fa-trash {
+  position: absolute;
+  line-height: 1;
+  top: 30px;
+  right: 30px;
+  color: #df6464;
+}
+
+.korzinka__item-top {
+  display: flex;
+}
+
+.korzinka__item-top div {
+  display: flex;
+  flex-direction: column;
+  width: 239px;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.korzinka__item-title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1c1c27;
+}
+
+.korzinka__item-prise {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+}
+
+.boxx1 {
+  width: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.korzinka__item-bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 239px; */
+}
+
+.korzinka__bot-btns {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 30px; */
+}
+
+.korzinka__bot-btns p {
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 6px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.korzinka__bot-btns i::before,
+.korzinka__bot-btns i::after,
+.korzinka__bot-btns i {
+  line-height: 1 !important;
+  width: 33px !important;
+  height: 33px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.korzinka__bot-price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: right;
+  color: #1c1c27;
+}
+
+.korzinka__itog {
+  width: 26%;
+  height: 100%;
+  margin-top: 65px;
+  padding-top: 22px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.korzinka__itog p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin: 0 22px 22px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.korzinka__itog_btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  background: #101010;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+}
+
+.korzinka__itog_btn {
+  /* padding: 200px; */
+  margin: 0;
+  padding: 0;
+  padding: 22px 0;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: #101010;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+  transition: 0.2s ease;
+}
+
+.korzinka__itog_btn:hover {
+  opacity: 0.8;
+}
+
+.korzinka__itog_btn:active {
+  opacity: 0.6;
+  border: 1.5px solid transparent;
+}
+
+.korzinka__red {
+  margin: 15px 0;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.korzinka__red h3 {
+  margin: 0;
+  margin-bottom: 17px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.korzinka__map {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1.5px solid #2221211a;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+.korzinka__red-bot {
+  margin-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.korzinka__red-desc {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.korzinka__red-desc i {
+  margin-right: 12px;
+  color: #101010;
+}
+
+.korzinka__red-price {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #1c1c27;
+}

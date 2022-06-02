@@ -1,0 +1,8 @@
+.selected-list {
+  display: flex;
+  align-items: center;
+}
+
+.selected-list .main__chexol-item {
+  margin: 1.7%;
+}

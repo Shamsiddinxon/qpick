@@ -1,0 +1,122 @@
+.header {
+  /* margin-bottom: 22px; */
+}
+
+.header__container {
+  padding: 15px 20px 0px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__lotip {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 75px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.header__lotip img {
+  margin: 0;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.header__select-box {
+  display: flex;
+  align-items: center;
+}
+
+.header__select {
+  border: none;
+  outline: none;
+  background-color: #eaeaea;
+}
+
+.header__option {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #101010;
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+}
+
+.header__card-btn,
+.header__selected-btn {
+  border: none;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+  display: inline-block;
+}
+
+.header__munu-btn:hover .fa-solid,
+.header__card-btn:hover .fa-solid,
+.header__selected-btn:hover .fa-solid {
+  color: #101010b7;
+}
+
+.header__selected-btn {
+  position: relative;
+  transition: 0.2s;
+}
+
+.header__card-btn {
+  position: relative;
+  margin-left: 45px;
+  text-decoration: none;
+  color: #101010;
+  transition: 0.8s ease;
+}
+
+.header__btnss {
+  width: 18px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 18px;
+  background-color: #ffa542;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__btnss_i {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__munu-btn {
+  display: none;
+}
+
+.fa-solid {
+  width: 100%;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  color: #838383;
+}
+
+@media only screen {
+}

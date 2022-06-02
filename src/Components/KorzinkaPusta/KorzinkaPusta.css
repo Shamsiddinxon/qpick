@@ -1,0 +1,51 @@
+.korzinkaPusta {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.korzinkaPusta img {
+  margin-bottom: 30px;
+}
+
+.korzinkaPusta h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #101010;
+}
+
+.korzinkaPusta p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.korzinkaPusta__a {
+  border: none;
+  padding: 20px 170px;
+  margin-bottom: 140px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background: #101010;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: 0.2s ease;
+  text-decoration: none;
+}
+
+.korzinkaPusta__a:hover {
+  opacity: 0.8;
+}

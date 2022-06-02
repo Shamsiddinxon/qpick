@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 29px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 30px 0px 0px;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__menu-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  transition: 0.2s;
+}
+
+.footer__selects_linc {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 34px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer__selects_linc:hover,
+.footer__menu-item:hover {
+  opacity: 0.6;
+}
+
+.footer__selects div {
+  margin-top: 10px;
+}
+
+.footer__selects button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-right: 15px;
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+.footer__selects button:hover {
+  opacity: 0.6;
+}
+
+.footer__selects button:active {
+  color: #ffa542;
+}
+
+.footer__selects i {
+  margin-right: 15px;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__icons a {
+  color: #101010;
+  margin-left: 18px;
+}
+
+.footer__icons a img {
+  height: 31px;
+}
+
+.activs {
+  color: #ffa542;
+}
