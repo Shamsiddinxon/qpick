@@ -189,7 +189,7 @@ function Main() {
           </div>
 
           <div>
-            <p className="main__chexol-desc">{data[lang].main_naushnik}</p>
+            <p className="main__chexol-desc">{data[lang].main_naushnik1}</p>
             <div className="main__list">
               {data1
                 .filter((i) => i.name === "naushnik")

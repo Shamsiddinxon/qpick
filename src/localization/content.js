@@ -4,6 +4,7 @@ const data = {
     hero: "Аксессуары для Iphone 13 Pro Max",
     main_chexol: "Чехлы",
     main_naushnik: "Наушники",
+    main_naushnik1: "Наушники и прочее",
     sum: "Сумма",
     singlcard_tit: "Описание и характеристики",
     singlcard_desc: "Активное шумоподавление: Нет",
@@ -60,6 +61,7 @@ const data = {
     hero: "Iphone 13 Pro Max uchun aksessuarlar",
     main_chexol: "Chexollar",
     main_naushnik: "Naushniklar",
+    main_naushnik1: "Naushnik va boshqalar",
     sum: "Sum",
 
     singlcard_tit: "Tavsif va xususiyatlar",
@@ -118,6 +120,7 @@ const data = {
     hero: "Accessories for Iphone 13 Pro Max",
     main_chexol: "Cases",
     main_naushnik: "Headphones",
+    main_naushnik1: "Headphones and others",
     sum: "Sum",
     singlcard_tit: "Description and characteristics",
     singlcard_desc: "Active Noise Cancellation: No",

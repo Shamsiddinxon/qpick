@@ -44,23 +44,11 @@ function Header() {
               
                 </MenuItem>
                 <MenuItem value={10}>Iphone 13 Pro Max</MenuItem>
-                <MenuItem >Iphone 13 Pro Max</MenuItem>
-                <MenuItem >Iphone 13 Pro Max</MenuItem>
+                <MenuItem >Iphone 13 Pro </MenuItem>
+                <MenuItem >Iphone 13 </MenuItem>
               </Select>
             </FormControl>
           </div>
-          {/* <div className="header__select-box">
-            <img src={foneImg} alt="" />
-
-            <select className="header__select">
-              <option className="header__option" value="">
-                {data[lang].header_sele}
-              </option>
-              <option className="header__option" value="tell">
-                Iphone 13 Pro Max
-              </option>
-            </select>
-          </div> */}
         </div>
         <div className="header__btns">
           <NavLink to="/karzinka" className="header__selected-btn">

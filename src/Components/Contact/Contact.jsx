@@ -1,7 +1,7 @@
 import React from "react";
 // import { YMaps, Map, Placemark } from "react-yandex-maps";
 import "./Contact.css";
-// import vk from "../../Assests/img/vk.svg";
+import vk from "../../Assests/img/VK.svg";
 import watsap from "../../Assests/img/watsapp.svg";
 import ins from "../../Assests/img/ins.png";
 import tel from "../../Assests/img/tel.svg";
@@ -49,7 +49,7 @@ function Contact() {
 
         <div className="contact__right">
           <a href="#">
-            {/* <img src={vk} alt="" width="53" /> */}
+            <img src={vk} alt="" width="53" />
           </a>
 
           <a href="#">
